@@ -136,7 +136,7 @@ body{
 .commonSection {
     padding: 120px 0;
     position: relative;
-    background: #ddd !important;
+    /* background: #ddd !important; */
 }
 
 /* programs */
@@ -187,8 +187,12 @@ body{
 
 /* contact */
 .ib5_inner {
-    max-height:248px !important;
+    min-height:276px !important;
 
+}
+
+.ib5_inner p span {
+    color:red !important;
 }
 
 
